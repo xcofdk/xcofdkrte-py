@@ -1,0 +1,40 @@
+# ------------------------------------------------------------------------------
+# File   : pyproject.toml
+#
+# Copyright(c) 2023-2026 Farzad Safa (farzad.safa@xcofdk.com)
+# All rights reserved.
+# ------------------------------------------------------------------------------
+
+
+[project]
+name             = "xcofdk-rte"
+version          = "1.0"
+authors          = [ {name="Farzad Safa", email="farzad.safa@xcofdk.com"}, ]
+description      = "XCOFDK is a runtime environment to provide multithreading, multiprocessing and life cycle management to programs."
+readme           = "README.md"
+requires-python  = ">=3.11"
+dependencies     = [ "cryptography" ]
+license          = "LicenseRef-XCOFDK-License-1.0"
+license-files    = [ "LICENSE.txt" ]
+classifiers      = [
+      "Development Status :: 5 - Production/Stable"
+    , "Intended Audience :: Developers"
+    , "Natural Language :: English"
+    , "Programming Language :: Python"
+    , "Programming Language :: Python :: 3"
+    , "Programming Language :: Python :: 3 :: Only"
+    , "Programming Language :: Python :: 3.11"
+    , "Programming Language :: Python :: 3.12"
+    , "Programming Language :: Python :: 3.13"
+    , "Programming Language :: Python :: 3.14"
+    , "Programming Language :: Python :: Free Threading :: 3 - Stable"
+    , "Operating System :: POSIX :: Linux"
+    , "Operating System :: MacOS"
+    , 'Operating System :: Microsoft :: Windows'
+    , "Topic :: Software Development"
+    , "Topic :: Software Development :: Libraries :: Application Frameworks"
+]
+
+
+[project.urls]
+Homepage = "https://github.com/xcofdk/xcofdkrte-py/"

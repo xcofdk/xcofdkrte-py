@@ -1,0 +1,4 @@
+# binary files
+*.pdf               -text
+*.tar.gz            -text
+*.zip               -text

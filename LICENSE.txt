@@ -1,0 +1,93 @@
+XCOFDK for Python License Agreement
+
+Copyright 2026 Farzad Safa
+
+Use of the source code, build and documentation artifacts, without modifictation,
+is hereby permitted, free of charge, to any person, educational, governmental
+or commercial organization subject to the definitions as stated in section 1,
+terms and conditions as stated in section 2, and disclaimer of warranty as
+stated in section 3.
+
+1. Definitions
+   1.1 "Licensor" refers to the copyright holder mentioned in the copyright
+        note above.
+
+   1.2 "License" refers to this license file.
+
+   1.3 "API" refers to the term "Application Programming Interface".
+
+   1.4 "XCOFDK for Python", also referred to as "XCOFDK", refers to a software
+       framework which is composed of a well-defined bundle of software packages:
+         - A single, unique backend package, see section 1.5, and
+         - one or more frontend packages, see sections 1.6 and 1.7.
+       The Licensor has developed XCOFDK to provide a runtime environment, also
+       referred to as "RTE", in source code and/or binary forms, for the
+       programming language Python.
+       The topmost purpose of the RTE of XCOFDK is to support (rapid development
+       of) Python programs and/or Python libraries with software features and
+       utilities closely related to multithreading, multiprocessing, life cycle
+       managemnt and managed execution.
+
+    1.5 "Backend Package of XCOFDK" refers to the software package of XCOFDK,
+        in source code and/or binary forms, responsible for providing both the
+        public API and the implementation of the RTE of XCOFDK to make its
+        functional scope as the runtime envrionment of the framework available
+        to authorized "Frontend Packages of XCOFDK", see sections 1.6 and 1.7,
+        as soon as they successfuly pass the authorization sequence of this
+        backend package.
+
+    1.6 "Frontend Packages of XCOFDK" refers to a collection of different
+        software packages of XCOFDK each designed to act as the interaction layer
+        of the framework which other Python programs and/or Python libraries can
+        use. In general, they transparently provide access to the RTE of XCOFDK
+        according to the specific set of software features they offer.
+        Therefore, terms and conditions of use of the "Backend Package of XCOFDK"
+        are by definition subject to the terms and conditions of use of the
+        respective "Frontend Packages of XCOFDK".
+
+    1.7 "Authorized Frontend Package of XCOFDK" refers to an arbitrary member of
+        "Frontend Packages of XCOFDK" which is properly configured to successfuly
+        pass the evaluation of authorization done by "Backend Package of XCOFDK".
+        Such a frontend package may be developed by the Licensor, or it may be
+        developed by other software developers and/or vendors expressly permitted
+        by the Licensor to configure their frontend package accordingly.
+
+    1.8 "Default Frontend Package of XCOFDK" refers to an "Authorized Frontend
+        Package of XCOFDK" which is designed to make the default functional
+        scope of "Backend Package of XCOFDK", see section 1.5, always available
+        to other Python programs and/or Python libraries.
+
+    1.9 "This Software" refers to the "Backend Package of XCOFDK", see section
+        1.5, and associated source code documentation delivered as part of its
+        distribution or installation, respectively, and the online presentation
+        of its public API provided as a supplementary documentation.
+
+    1.10 "Use of This Software" refers to the use of "This Software", see section
+         1.9, by other Python programs or Python libraries based on and according
+         to the respective terms and conditions of use of indivdual members of
+         the "Frontend Packages of XCOFDK", see section 1.6, which are authorized
+        to use "This Software", see section 1.7.
+
+2. Terms and conditions
+
+    2.1 This License is only valid for the "Backend Package of XCOFDK"
+        see section 1.5.
+
+    2.2 Any use of "This Software", see section 1.9, other than defined by "Use
+        of This Software" in section 1.10 is hereby not permitted. Therefore,
+        copy or change or redistibution or create a derivative work of any part
+        of "This Software" is not permitted.
+
+    2.3 The name of the Licensor shall not be used to endorse or promote
+        products which make "Use of This Software" without specific prior  
+        written permission.
+
+3. Disclaimer of Warranty
+
+   THIS SOFTWARE IS PROVIDED BY THE LISENSOR "AS IS", WITHOUT WARRANTY OF ANY
+   KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+   EVENT SHALL THE LISENSOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+   WHETHER IN AN ACTION OF CONTRACT, LIABILITY, OR OTHERWISE, ARISING FROM, OUT
+   OF OR IN CONNECTION WITH THE USE OF THIS SOFTWARE OR OTHER DEALINGS IN THIS
+   SOFTWARE.
